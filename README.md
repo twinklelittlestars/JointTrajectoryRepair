@@ -23,14 +23,11 @@ JointTrajectoryRepair/
 
 The experiments are conducted on the following datasets:
 
-- **PVS**  
-  https://www.kaggle.com/datasets/jefmenegazzo/pvs-passive-vehicular-sensors-datasets
+- **PVS:** https://www.kaggle.com/datasets/jefmenegazzo/pvs-passive-vehicular-sensors-datasets
 
-- **Onboard**  
-  https://www.kaggle.com/datasets/mrisdal/zurich-urban-micro-aerial-vehicle
+- **Onboard:** https://www.kaggle.com/datasets/mrisdal/zurich-urban-micro-aerial-vehicle
 
-- **OpenSky**  
-  https://opensky-network.org/datasets/
+- **OpenSky:** https://opensky-network.org/datasets/
 
 ## Requirements
 
