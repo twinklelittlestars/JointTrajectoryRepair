@@ -210,8 +210,6 @@ def build_mask_buckets(all_attr_repairs, attr_cols):
 
     for mask, attr_to_states in buckets.items():
         attrs_in_bucket = set(attr_to_states.keys())
-        if sum(mask) == 0:
-            continue
         if attrs_in_bucket == required_attrs:
             mask_buckets[mask] = attr_to_states
             valid_mask_count += 1
