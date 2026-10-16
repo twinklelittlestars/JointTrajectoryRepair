@@ -64,7 +64,7 @@ def detect_violations(df_std, attr_cols, pos_cols, attr_thresholds, eps=1e-8):
 
         trips = []
         for i in range(1, n - 1):
-            if delta_A_diff[i] >= threshold:
+            if delta_A_diff[i] > threshold:
                 trips.append((i - 1, i, i + 1))
 
         viol_triplets[attr] = trips
