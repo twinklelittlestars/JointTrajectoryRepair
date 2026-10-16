@@ -4,6 +4,8 @@ This repository contains the source code and supporting materials for the paper:
 
 **"A Two-Way Street: On Jointly Repairing Positions and Attributes in Trajectory Data."**
 
+Detailed proofs of all theoretical results are provided in [Supplementary Proofs](./Supplementary_Proofs.pdf).
+
 ## File Structure
 
 ```
@@ -15,7 +17,7 @@ JointTrajectoryRepair/
 │   ├── TJGR.py            # Linear-time approximation
 │   └── requirements.txt   # Python dependencies
 ├── data/                  # Dataset files
-├── appendix.pdf           # Supplementary material
+├── Supplementary_Proofs.pdf  # Detailed theoretical proofs
 └── README.md
 ```
 
